@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Heebo", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0f172b;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fea116;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d48815;
+}
+
+#btn {
+  transition: 0.5s;
+  color: white;
+  border: 1px solid;
+  border-color: #fea116;
+}
+
+#btn:hover {
+  background-color: #fea116;
+}
+
+.active {
+  color: #fea116 !important;
+}
+
+nav a {
+  color: white;
+}
+
+nav a:hover {
+  color: #fea116;
+}
+
+.hero-header {
+  background: linear-gradient(rgba(15, 23, 43, 0.9), rgba(15, 23, 43, 0.9)),
+    url("assets/bg-hero.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-header img {
+  animation: imgRotate 50s linear infinite;
+}
+
+.bg-dark {
+  background-color: #0f172b;
+}
+
+#btn-2 {
+  transition: 0.5s;
+  color: black;
+  border: 1px solid;
+  border-color: #fea116;
+}
+
+#btn-2:hover {
+  color: white;
+  background-color: #fea116;
+}
+
+@keyframes imgRotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.testimonial :hover {
+  transition: 0.5s;
+  color: white !important;
+  background-color: #fea116;
+}
+
+.footer-links :hover {
+  color: #fea116;
+}
+
+.service-item {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.bg-primary {
+  background-color: #fea116;
+}
+
+.text-primary {
+  color: #fea116;
+}
+
+
+.title-font {
+    font-family: 'Pacifico', cursive;
+}
